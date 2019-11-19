@@ -22,12 +22,14 @@ const data = {
   github: chalk.cyan('https://github.com/khriztianmoreno'),
   linkedin: chalk.cyan('https://www.linkedin.com/in/khriztianmoreno/'),
   web: chalk.cyan('https://khriztianmoreno.com/'),
+  podcast: chalk.cyan('https://twitter.com/commitfm'),
   npx: chalk.white('npx khriztianmoreno'),
   labelWork: chalk.white.bold('      Work:'),
   labelTwitter: chalk.white.bold('   Twitter:'),
   labelGitHub: chalk.white.bold('    GitHub:'),
   labelLinkedIn: chalk.white.bold('  LinkedIn:'),
   labelWeb: chalk.white.bold('       Web:'),
+  labelPodcast: chalk.white.bold('       Podcast:'),
   labelCard: chalk.white.bold('      Card:')
 }
 
@@ -40,9 +42,10 @@ const twittering = `${data.labelTwitter}  ${data.twitter}`
 const githubing = `${data.labelGitHub}  ${data.github}`
 const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`
 const webing = `${data.labelWeb}  ${data.web}`
+const podcasting = `${data.labelPodcast}  ${data.web}`
 const carding = `${data.labelCard}  ${data.npx}`
 
 // Put all our output together into a single variable so we can use boxen effectively
-const output = heading + newline + bio + newline + newline + working + newline + twittering + newline + githubing + newline + linkedining + newline + webing + newline + newline + carding
+const output = heading + newline + bio + newline + newline + working + newline + twittering + newline + githubing + newline + linkedining + newline + webing + newline + newline + podcasting + carding
 
 console.log(chalk.green(boxen(output, options)))
