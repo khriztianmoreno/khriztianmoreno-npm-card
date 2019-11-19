@@ -4,7 +4,7 @@
   "description": "A personal card for Cristian Moreno (@khriztianmoreno) inspired by Tierney Cyren (@bitandbang)",
   "main": "index.js",
   "bin": {
-    "bitandbang": "./bin/card.js"
+    "khriztianmoreno": "./bin/card.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
