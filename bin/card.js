@@ -18,7 +18,7 @@ const data = {
   bio: chalk.white.bold(`I help others learn by doing through articles, videos, and courses about Javascript, React, and the static web.
 Microsoft MVP | Google Developer Expert | AWS Community Builder | Cloudinary Media Developer Expert`),
   handle: chalk.cyan('@khriztianmoreno'),
-  work: chalk.white('Developer & Educator - Mattersupply'),
+  work: chalk.white('Developer & Educator - Make It Real Camp'),
   twitter: chalk.cyan('https://twitter.com/khriztianmoreno'),
   github: chalk.cyan('https://github.com/khriztianmoreno'),
   linkedin: chalk.cyan('https://www.linkedin.com/in/khriztianmoreno/'),
@@ -44,6 +44,6 @@ const webing = `${data.labelWeb}  ${data.web}`
 const carding = `${data.labelCard}  ${data.npx}`
 
 // Put all our output together into a single variable so we can use boxen effectively
-const output = heading + newline + bio + newline + newline + working + newline + twittering + newline + githubing + newline + linkedining + newline + webing + newline + carding
+const output = heading + newline + bio + newline + newline + working + newline + twittering + newline + githubing + newline + linkedining + newline + webing + newline + newline + carding
 
 console.log(chalk.green(boxen(output, options)))
