@@ -1,3 +1,7 @@
+[![Twitch](https://img.shields.io/twitch/status/redisinc?style=social)](https://www.twitch.tv/khriztianmoreno)
+[![YouTube](https://img.shields.io/youtube/channel/views/UCD78lHSwYqMlyetR0_P4Vig?style=social)](https://www.youtube.com/khriztianmoreno)
+[![Twitter](https://img.shields.io/twitter/follow/khriztianmoreno?style=social)](https://twitter.com/khriztianmoreno)
+
 My npm card inspired by [bitandbang](https://github.com/bnb/bitandbang)
 
 Run 
