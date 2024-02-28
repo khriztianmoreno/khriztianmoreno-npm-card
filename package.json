@@ -40,6 +40,6 @@
   "homepage": "https://github.com/khriztianmoreno/khriztianmoreno-npm-card#readme",
   "volta": {
     "node": "18.14.1",
-    "npm": "9.5.0"
+    "npm": "9.9.3"
   }
 }
