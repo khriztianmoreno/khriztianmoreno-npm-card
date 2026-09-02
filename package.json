@@ -20,7 +20,7 @@
     "husky": "8.0.3",
     "lint-staged": "13.1.2",
     "np": "7.6.3",
-    "standard": "17.0.0"
+    "standard": "17.1.2"
   },
   "repository": {
     "type": "git",
