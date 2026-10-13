@@ -16,7 +16,7 @@
     "chalk": "^5.0.0"
   },
   "devDependencies": {
-    "eslint": "8.34.0",
+    "eslint": "8.57.1",
     "husky": "8.0.3",
     "lint-staged": "13.1.2",
     "np": "7.6.3",
